@@ -1,0 +1,67 @@
+.img_a{
+    max-width: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin: 50px auto;
+    background-size: cover;
+    background-position:center;
+    &:hover{
+        background-size: 150%;
+        border: 3px solid $maincolor;
+        cursor:zoom-in;
+    }
+
+}
+.det{
+    h1{
+        margin-top: 50px;
+        @extend %DitalsNamePrice;
+    }
+    h3{
+        @extend %DitalsNamePrice;
+    }
+    button{
+        display: block;
+        width: 80%;
+        height: 20px;
+        padding: 0px 0px 45px 10px;
+        margin:10px auto;
+        border-radius: 10px;
+        border: none;
+        background-color: $maincolor;
+        font-size: 30px;
+        outline:none ;
+        transition: 0.3s linear;
+        margin-left: 22px;
+        &:hover{
+            background-color: black;
+            color: $maincolor;
+        }
+    }
+    .amount{
+        width: 10%;
+        height: 200px;
+        .count{
+            display: block;
+            width: 10%;
+            height: 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: transparent;
+            font-size: 30px;
+            outline:none ;
+            transition: 0.3s linear;
+            &:hover{
+                color: $maincolor;
+            }
+            
+        }
+        span{
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            padding-left: 42px;
+        }
+    }    
+}

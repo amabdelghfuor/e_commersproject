@@ -1,0 +1,7 @@
+.ListInDetailscolor{
+    display: flex;
+    align-items: center;
+    li{
+        @extend %DitalsInPageDetails;
+    }
+}

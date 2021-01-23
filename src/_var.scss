@@ -1,0 +1,37 @@
+$maincolor:#ffa500;
+$mainopaccolor:#ffa60075;
+
+
+%btnslid{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    outline:none;
+    opacity: .7;
+    &:hover{
+        background-color: rgba(5, 0, 0, 0.555);
+        color: $maincolor;
+        cursor: pointer;
+    }
+}
+%DitalsInPageDetails{
+    list-style: none;
+    border: black 3px solid;
+    padding: 5px;
+    margin-left: -13px;
+    color: black;
+    margin-right: 15px;
+    font-size:20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+%DitalsNamePrice{
+    margin:25px;
+    color:$maincolor;
+}

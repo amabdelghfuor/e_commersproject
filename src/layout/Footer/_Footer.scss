@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    background-color: black;
+    
+
+    .container{
+
+        .row{
+            
+            ul{
+                width: 100%;
+                margin-top: 30px;
+                padding-left: 100px;
+                li{
+                    color: $maincolor;
+                    &:hover{
+                        color: rgb(180, 131, 95);
+                    }
+                }
+            }
+        }
+    }
+}

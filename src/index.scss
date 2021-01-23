@@ -1,0 +1,23 @@
+@import"~bootstrap";
+@import"./var";
+@import"./layout/Header/Header";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+@import"./Pages/Home/Home";
+@import"./Component/Card/Card";
+@import"./Component/Slider/Slider";
+@import"./Pages/Cart/Cart";
+
+@import"./Pages/Details/Details";
+@import"./Component/Size/Size";
+@import"./Component/Color/Color";
+@import"./Component/Img/Img";
+
+
+@import"./layout/Footer/Footer";
+

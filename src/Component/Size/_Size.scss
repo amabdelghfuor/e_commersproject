@@ -1,0 +1,13 @@
+.ListInDetails{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    
+    li{
+        background-color: $maincolor;
+        @extend %DitalsInPageDetails;
+
+        
+
+    }
+}

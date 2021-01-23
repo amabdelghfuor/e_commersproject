@@ -1,0 +1,19 @@
+.ListInDetailsImg{
+    display:flex;
+    width: 50%;
+    height: 40px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: -19px;
+    li{
+        list-style: none;
+        img{
+            display: block;
+            min-width: 50px;
+            height: 50px;
+            border: 1px solid $maincolor;
+            margin: 5px 3px  ;
+            border-radius:5px ;
+        }
+    }
+}

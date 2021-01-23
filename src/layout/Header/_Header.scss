@@ -1,0 +1,139 @@
+header{
+    display: block;
+    width: 100%;
+    @media (max-width:779px) {
+        position: relative;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        @media (max-width:779px) {
+                display: block;
+            }
+        .logo{
+            width: 25%;
+            @media (max-width:779px) {
+                width: 100%;
+                text-align: center;
+                margin-left: 15px;
+                
+            }
+            a{
+                color:$maincolor ;
+                font-size: 50px;
+                font-weight: 600;
+            }
+        }
+        .cart_sing_in{
+            width: 25%;
+            display: flex ;
+            justify-content: center;
+            @media (max-width:779px) {
+                width: 100%;
+                justify-content: center;
+            }
+            h5{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                @media (max-width:779px) {
+                    margin: 20px auto;
+                }
+                span{
+                    color: $maincolor;
+                    padding-top:10px ;
+                    font-size: 25px;
+                    a{
+                        color: $maincolor;
+                        position: relative;
+                        span{
+                            position: absolute;
+                            top: -18px;
+                            right: -9px;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+        .menu{
+            display: none;
+            background-color: transparent;
+            color:$maincolor;
+            font-size: 50px;
+            padding: 0px ;
+            outline: none;
+            border: none;
+            margin: 10px auto;
+            @media (max-width:779px) {
+                display: block;
+            
+            }
+
+        }
+    }
+    nav{
+        width: 100%;
+        background-color: $maincolor;
+        @media (max-width:779px) {
+            border-radius: 10px;
+            position: absolute;
+            width: 100%;
+            top: 100px;
+            z-index: 1000;
+            transition: .5s linear ;
+            transform: translateX(-900px);
+        }
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @media (max-width:779px) {
+                display: block;
+                width: 100%;
+            }
+            .li{
+                display: none;
+                text-decoration: none;
+                border: none;
+                background-color: transparent;
+                outline: none;
+                font-size: 20px;
+                @media (max-width:779px) {
+                    display: inline-block;
+                    position: absolute;
+                    top:0;
+                    right:0;
+
+                }
+            
+            }
+           
+            li{
+                list-style: none;
+                padding: 10px 20px;
+                font-size: 20px;
+                font-weight: 600;
+                
+                @media (max-width:779px) {
+                    width: 100%;
+                    text-align: center;
+                    border-bottom:1px solid black ;
+                    padding: 10px 0;
+                    margin-left: -20px;
+                }
+                a{
+                    color: black;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
