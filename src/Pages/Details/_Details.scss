@@ -11,7 +11,9 @@
         border: 3px solid $maincolor;
         cursor:zoom-in;
     }
-
+    @media(max-width:390px){
+        margin: 20px;
+    }
 }
 .det{
     h1{
